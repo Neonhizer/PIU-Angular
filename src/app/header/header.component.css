@@ -1,0 +1,194 @@
+
+* {
+    background-color: grey;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #000000;
+  }
+  
+  .nav_container {
+    display: flex;
+    align-items: center;
+    background-color: transparent; /* adăugat pentru a evita aplicarea culorii de fundal a documentului */
+  }
+  
+  .nav_container a {
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .nav_container a:hover {
+    color: #ec1194;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #ee2323;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent; /* adăugat pentru a evita aplicarea culorii de fundal a documentului */
+  }
+  
+  .button:hover {
+    background-color: #ff8888;
+  }
+  
+  
+  
+  
+  .gradient-text {
+    background: linear-gradient(45deg,#550732, #d5d0d3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .home, .tech, .products {
+    background-color: transparent;
+  }
+  
+  
+   .imag img {
+    display: block;
+    float: right;
+    padding-right: 10%;
+    padding-top: 2%;
+  } 
+  
+  
+  .text h1:first-child {
+    color: red;
+  }
+  
+  .text h1:last-child {
+    color: #0077be;
+  }
+  
+
+  .button {
+    background-color: #ee2323;
+  }
+  
+  .button:hover {
+    background-color: #ff8888;
+  }
+
+
+
+
+
+  .next-button {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* change the width as desired */
+    height: 60px; /* change the height as desired */
+    line-height: 60px; /* ensure the text is vertically centered */
+    background-color: #ee2323;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+
+  /* .next-button {
+    padding: 8px 16px;
+    background-color: #ee2323;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent; /* adăugat pentru a evita aplicarea culorii de fundal a documentului */
+    /* position:fixed;
+    bottom: 24px;
+    left: 50%;
+}
+
+.next-button:hover {
+    background-color: #ff8888;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* }
+  
+a.next-button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+a.next-button span{
+    position: relative;
+    z-index: 2;
+}
+
+a.next-button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+a.next-button:hover{
+    color: #fff;
+}
+
+a.next-button:hover:after{
+    width: 100%;
+}
+
+.next-button {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(50% + 20px); /* sau orice valoare care funcționează bine pentru dvs. */
+/* }
+
+.nav {
+  z-index: 100;
+}
+
+.next-button {
+  z-index: 200;
+}
+
+
+ */
